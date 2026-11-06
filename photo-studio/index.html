@@ -75,11 +75,11 @@
 <nav aria-label="Changes">
   <p>Changes</p>
   <ol>
-    <li><a href="#insta360-insp">Convert Insta360 .insp files to 360 JPG</a></li>
     <li><a href="#force-update-fix">Fix force update review findings</a></li>
     <li><a href="#default-api-key">Add default AI API key preference</a></li>
-    <li><a href="#window-maximize">Maximize window on Windows</a></li>
     <li><a href="#sso-fallback">Implement fallback login (Google &amp; email OTP) when SSO is down</a></li>
+    <li><a href="#insta360-insp">Convert Insta360 .insp files to 360 JPG</a></li>
+    <li><a href="#window-maximize">Maximize window on Windows</a></li>
     <li><a href="#perf-thumbnails">Speed up folder and grid thumbnail loading</a></li>
     <li><a href="#perf-flat-preview">Cap flat panorama preview source at 6144 px</a></li>
   </ol>
@@ -97,17 +97,6 @@
     Video: <video src="media/xx.mp4" controls muted playsinline></video>
     A dashed placeholder shows while a file is missing.
   -->
-
-  <article class="item" id="insta360-insp">
-    <div class="body">
-      <div class="meta"><span class="tag">Feature</span><span class="tag">28 Oct 2026</span></div>
-      <h2>Convert Insta360 .insp files to 360 JPG</h2>
-      <ul>
-        <li>Insta360 <code>.insp</code> files are converted to equirectangular 360 JPG directly in the app.</li>
-        <li>Translated into 18 languages.</li>
-      </ul>
-    </div>
-  </article>
 
   <article class="item" id="force-update-fix">
     <div class="media">
@@ -139,17 +128,6 @@
     </div>
   </article>
 
-  <article class="item" id="window-maximize">
-    <div class="body">
-      <div class="meta"><span class="tag">Fix</span><span class="tag">30 Oct 2026</span></div>
-      <h2>Maximize window on Windows</h2>
-      <ul>
-        <li>The main window opens maximized on Windows and Linux.</li>
-        <li>On macOS the app keeps its fullscreen behavior.</li>
-      </ul>
-    </div>
-  </article>
-
   <article class="item" id="sso-fallback">
     <div class="media">
       <video src="media/05-sso-fallback.mp4" controls muted playsinline></video>
@@ -161,6 +139,28 @@
         <li>The app checks whether the login server (SSO) is reachable before sign-in.</li>
         <li>If it is down, a maintenance screen offers two alternatives: <strong>Sign in with Google</strong> or a <strong>verification code sent by email</strong>.</li>
         <li>Users can keep signing in during an SSO outage.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="item" id="insta360-insp">
+    <div class="body">
+      <div class="meta"><span class="tag">Feature</span><span class="tag">28 Oct 2026</span></div>
+      <h2>Convert Insta360 .insp files to 360 JPG</h2>
+      <ul>
+        <li>Insta360 <code>.insp</code> files are converted to equirectangular 360 JPG directly in the app.</li>
+        <li>Translated into 18 languages.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="item" id="window-maximize">
+    <div class="body">
+      <div class="meta"><span class="tag">Fix</span><span class="tag">30 Oct 2026</span></div>
+      <h2>Maximize window on Windows</h2>
+      <ul>
+        <li>The main window opens maximized on Windows and Linux.</li>
+        <li>On macOS the app keeps its fullscreen behavior.</li>
       </ul>
     </div>
   </article>

@@ -76,8 +76,8 @@
   <p>Changes</p>
   <ol>
     <li><a href="#force-update">Implement force update for outdated app versions</a></li>
-    <li><a href="#updater-fix">Fix updater version parsing and improve update dialog UI</a></li>
     <li><a href="#sso-fallback">Implement fallback login (Google &amp; email OTP) when SSO is down</a></li>
+    <li><a href="#updater-fix">Fix updater version parsing and improve update dialog UI</a></li>
   </ol>
 </nav>
 <main>
@@ -117,18 +117,6 @@
     </div>
   </article>
 
-  <article class="item" id="updater-fix">
-    <div class="body">
-      <div class="meta"><span class="tag">Fix</span><span class="tag">28 Oct 2026</span></div>
-      <h2>Fix updater version parsing and improve update dialog UI</h2>
-      <ul>
-        <li>More reliable version comparison, so the app correctly decides when an update is required.</li>
-        <li>Blurred backdrop behind the update dialog for a cleaner look.</li>
-        <li>Improved Windows release process.</li>
-      </ul>
-    </div>
-  </article>
-
   <article class="item" id="sso-fallback">
     <div class="media">
       <video src="media/03-sso-fallback.mp4" controls muted playsinline></video>
@@ -141,6 +129,18 @@
         <li>If it is down, a maintenance screen offers two alternatives: <strong>Sign in with Google</strong> or a <strong>6-digit verification code sent by email</strong>.</li>
         <li>A <strong>Retry Now</strong> button switches back to SSO as soon as it recovers.</li>
         <li>Users can keep working even during an SSO outage.</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="item" id="updater-fix">
+    <div class="body">
+      <div class="meta"><span class="tag">Fix</span><span class="tag">28 Oct 2026</span></div>
+      <h2>Fix updater version parsing and improve update dialog UI</h2>
+      <ul>
+        <li>More reliable version comparison, so the app correctly decides when an update is required.</li>
+        <li>Blurred backdrop behind the update dialog for a cleaner look.</li>
+        <li>Improved Windows release process.</li>
       </ul>
     </div>
   </article>
